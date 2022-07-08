@@ -92,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
 
-      body: const Center(
+      body: Center(
         child: greetingscard()
       ),
       floatingActionButton:  FloatingActionButton(
