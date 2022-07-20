@@ -107,13 +107,13 @@ class _MyHomePageState extends State<MyHomePage> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart),
-            label: 'Add Order',
+            icon: Icon(Icons.shopping_cart_sharp),
+            label: 'Orders',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.account_circle,
+            icon: Icon(Icons.add_shopping_cart,
             color: Colors.grey,),
-            label: 'Profile',
+            label: 'Cart',
           ),
         ],
       ),
